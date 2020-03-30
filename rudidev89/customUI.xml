@@ -1,0 +1,36 @@
+<!-- Created with IDBE Ribbon Creator (Version: 1.1041) -->
+<!--            http://www.RibbonCreator.com            -->
+<!--             http://www.RibbonCreator.de            -->
+
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnRibbonLoad" loadImage="LoadImages">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="tab0" label="RMP2020" getVisible ="GetVisible">
+        <group id="grp0" label="Pengaturan" getVisible ="GetVisible">
+          <button id="btn_pengaturan" size="large" label="Pengaturan" imageMso="AcceptAndAdvance" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />			
+		</group>
+        <group id="grp1" label="Input" getVisible ="GetVisible">
+          <button id="btn_supplier" size="large" label="Supplier" imageMso="AcceptAndAdvance" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <separator id="sep_01" getVisible="GetVisible" />
+          <button id="btn_ktp" size="normal" label="KTP" imageMso="AcceptAndAdvance" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_npwp" size="normal" label="NPWP" imageMso="AcceptAndAdvance" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+        </group>
+        <group id="grp2" label="Kelapa" getVisible ="GetVisible">
+          <button id="btn_kelapa" size="large" label="Kelapa" imageMso="AcceptAndAdvance" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_import_kb" size="normal" label="Import Data" imageMso="ImportExcel" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <separator id="sep_02" getVisible="GetVisible" />
+        </group>
+        <group id="grp3" label="Laporan" getVisible ="GetVisible">
+          <button id="btn_usulan" size="normal" label="Usulan" imageMso="PrintDataOnly" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_rincian" size="normal" label="Rincian" imageMso="PrintDataOnly" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_rekap" size="normal" label="Rekap" imageMso="PrintDataOnly" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_5" size="normal" label="Button 5" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_6" size="normal" label="Button 6" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+        </group>
+        <group id="grp4" label="Tentang" getVisible ="GetVisible">
+          <button id="btn_tentang" size="large" label="Tentang Saya" imageMso="OutlookGlobe" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

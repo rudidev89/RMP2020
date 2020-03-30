@@ -1,0 +1,3 @@
+Sub Pesan()
+    MsgBox "ini hanya pesan biasa"
+End Sub
